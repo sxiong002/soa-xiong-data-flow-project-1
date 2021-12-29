@@ -4,9 +4,9 @@ import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions
 
 subscription_id = 'projects/york-cdf-start/subscriptions/soa-dataflow-sub'
-usd_table = 'york-cdf-start:s_xiong_proj_1.usd_order_payment_history_3'
-eur_table = 'york-cdf-start:s_xiong_proj_1.eur_order_payment_history_3'
-gbp_table = 'york-cdf-start:s_xiong_proj_1.gbp_order_payment_history_3'
+usd_table = 'york-cdf-start:s_xiong_proj_1.usd_order_payment_history_4'
+eur_table = 'york-cdf-start:s_xiong_proj_1.eur_order_payment_history_4'
+gbp_table = 'york-cdf-start:s_xiong_proj_1.gbp_order_payment_history_4'
 currency = ['USD', 'EUR', 'GBP']
 pub_sub_id = 'projects/york-cdf-start/subscriptions/dataflow-project-orders-stock-update-sub'
 pub_topic_id = 'projects/york-cdf-start/topics/dataflow-project-orders'
